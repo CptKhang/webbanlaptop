@@ -6,8 +6,14 @@
     <title>admincp</title>
     <link rel="stylesheet" type="text/css" href="css/styleadmincp.css">
 </head>
+<?php
+ session_start();
+ if(!isset($_SESSION['dangnhap'])){
+ 	header('Location:login.php');
+ } 
+?>
 <body>
-    <h3 class="title_admin">welcome to admincp</h3>
+    <h3 class="title_admin">welcome to admin</h3>
     <div class="wrapper">
     <?php
             include("config/config.php");
