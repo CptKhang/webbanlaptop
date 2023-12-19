@@ -8,6 +8,20 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+i.fa.fa-plus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-minus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-plus.fa-style:hover {
+    color: brown;
+}
+i.fa.fa-minus.fa-style:hover {
+    color: brown;
+}
 .wrapper_chitiet{
     height: auto;
     width: 90%;
